@@ -1,2 +1,9 @@
 def leap_year():
-    print("TO DO")
+    anio = int(input("Ingrese un año:"))
+
+    if (anio %400 == 0:
+        print(f"El año {anio} es bisiesto")
+    else:
+        print(f"El año {anio} no es bisiesto")
+
+  leap_year()
